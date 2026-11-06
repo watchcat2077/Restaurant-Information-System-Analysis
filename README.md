@@ -1,24 +1,45 @@
-# Restaurant-Information-System-Analysis
-Conducted system analysis for a multi-restaurant chain, including stakeholder analysis, feasibility study, use cases, UML diagrams, and project planning. Delivered a full system proposal covering employee, menu, and order management.
+# Restaurant Chain Information System: Systems Analysis
 
+![UML](https://img.shields.io/badge/UML-use%20case%20%C2%B7%20domain%20model%20%C2%B7%20activity-6A1B9A)
+![UMLet](https://img.shields.io/badge/UMLet-.uxf%20sources-2E7D32)
 
----
-### **Project Overview**
----
-The aim of this project is to analyze and design an integrated IT system for a restaurant chain operating multiple outlets. The system focuses on efficient management of employees, menus, and customer orders to enhance overall operational efficiency.
+A full systems-analysis proposal for a restaurant chain with multiple outlets. It covers one integrated system for
+employees, menus and customer orders, from the business problem and stakeholders through feasibility and cost/benefit
+to UML models of the proposed system.
 
+> Group project (Group 7) for **CSIT114 Systems Analysis**, University of Wollongong (Autumn 2025).
+> 📄 [Read the report (PDF, 76 pages)](report/systems-analysis-report.pdf)
 
----
-**Key Skills Demonstrated**
----
-**Stakeholder Analysis:** I took the lead in identifying all internal and external stakeholders (e.g., Restaurant Manager, Cook, Customers), analyzing their interests and influence, and defining the engagement strategy to ensure all perspectives were considered in the system design
+## Diagrams
 
-**Use Case & UML Modeling:** I was responsible for developing several key UML diagrams.Specifically,I authored the fully developed use case descriptions for the 'Customer' and 'Restaurant Manager' actors, and collaborated on creating the overall Use Case Diagram and the Domain Model Class Diagram.
+| Use case diagram | Domain model class diagram |
+|---|---|
+| ![Use case diagram](diagrams/use-case-diagram.jpg) | ![Domain model class diagram](diagrams/domain-model-class-diagram.jpg) |
 
-**Feasibility Analysis:** I contributed significantly to the economic feasibility study, where I helped outline the estimated project costs, anticipated tangible benefits like increased efficiency, and potential risks such as cost overruns
+<details>
+<summary>Activity diagrams: customer, waiter, chef, counter staff, manager</summary>
 
-**System Vision & Strategy:** I was instrumental in shaping the initial project direction by writing the **System Vision Document**. This involved defining the core problem statement, outlining the proposed system's capabilities , and articulating the key business benefits for the client.
+![Customer](diagrams/activity-customer.gif)
+![Waiter](diagrams/activity-waiter.bmp)
+![Chef](diagrams/activity-chef.gif)
+![Counter staff](diagrams/activity-counter-staff.bmp)
+![Manager](diagrams/activity-manager.gif)
 
-**Financial & Feasibility Analysis:** I performed a significant part of the economic analysis to prove the project's viability. My work included:
-    * **Quantifying Project Approval Factors** by estimating development costs (personnel, hardware, software).
-    * Conducting the **Cost/Benefit Analysis**, which involved projecting annual tangible benefits  and calculating the project's Net Present Value (NPV) and Payback Period.
+</details>
+
+The `.uxf` files are the editable sources and open in [UMLet](https://www.umlet.com/).
+
+## My contribution
+
+- **System vision:** I wrote the System Vision Document, covering the problem statement, the proposed system's
+  capabilities and the business benefits for the client.
+- **Stakeholder analysis:** I led the identification of internal and external stakeholders (restaurant manager, cook,
+  customers and others), analysed their interests and influence, and set the engagement strategy.
+- **Use cases and UML:** I wrote the fully developed use case descriptions for the *Customer* and *Restaurant Manager*
+  actors, and co-authored the use case diagram and the domain model class diagram.
+- **Feasibility and cost/benefit:** I estimated development costs (personnel, hardware, software) and projected the annual
+  tangible benefits. I also calculated the project's net present value (NPV) and payback period.
+
+## Team
+
+Group 7: Zihua (Andy) Zeng, Phuong Anh Phan, Khodedah Shadman, Yiheng Huang.
